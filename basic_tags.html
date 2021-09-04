@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Head Element Content-->
+    </head>
+    <body>
+        <!--Body Element Content-->
+        
+        <!--h: heading, for marking up a web page title-->
+        <!--The smaller the number, the smaller the font size-->
+        <h1>This is h1 tag</h1>
+        <h2>This is h2 tag</h2>
+        <h3>This is h3 tag</h3>
+        <h4>This is h4 tag</h4>
+        <h5>This is h5 tag</h5>
+        <h6>This is h6 tag</h6>
+
+        <!--p:paragraph, p tag makes blank between paragraphs-->
+        <p>
+            This is first paragraph.
+        </p>
+        <p>
+            This is second paragraph.
+        </p>
+
+        <!--line break-->
+        <p>
+            This is sample text. <br> This is sample text.
+        </p>
+
+        <!--hyperlink-->
+        <a href="https://www.google.com" title="Google Homepage" target="_self">Google</a>
+        <a href="https://github.com/maru-cho" title="my github" target="_blank">my github</a>
+        <!--title: description displayed when hovering over the mouse-->
+        <!--target: Option to specify where the document will be loaded-->
+        <!-- _self: new tab or new window, _self:current window -->
+        <br><br>
+        <!--button-->
+        <button type="submit">submit button</button>
+        <button disabled>disabled button</button> <!--you can't push this-->
+
+        <!--list-->
+        <h3>Unordered list</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Peach</li>
+            <li>Graph</li>
+        </ul>
+
+        <h3>Ordered List</h3>
+        <ol>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Cherry</li>
+        </ol>
+
+        <!--image-->
+        <img src="https://avatars.githubusercontent.com/u/47748516?v=4" alt="ice cream" width=320>
+        <!--src: address of image-->
+        <!--alt: description for when image loading fails-->
+        <!--height,width: determine size of image-->
+
+        <!--input-->
+
+        <!--text: normal text-->
+        <h3>user name: </h3>
+        <input type="text" name="username">
+
+        <!--password: input text is not visible-->
+        <h3>password</h3>
+        <input type="password" name="password">
+
+        <!--radio: can choose only one-->
+        <h3>Join mail list</h3>
+        <label><input type="radio" name="mail-list" value="yes">yes</label>
+        <label><input type="radio" name="mail-list" value="no">no</label>
+
+        <!--check box: can choose more than one-->
+        <h3>hobby</h3>
+        <label><input type="checkbox" name="hobby" value="swim">swim</label>
+        <label><input type="checkbox" name="hobby" value="listen music">listem music</label>
+        <label><input type="checkbox" name="hobby" value="play drum">play drum</label>
+        
+        <!--select: choose one among given options-->
+        <h3>Major: </h3>
+        <select name="major">
+            <option value="cs">Computer Science</option>
+            <option value="ph">Philosophy</option>
+            <option value="chm">Chemistry</option>
+            <option value="math">Mathmatics</option>
+        </select>
+
+        <h3>Introduce yourself: </h3>
+        <textarea cols="40" rows="5" placeholder="Introduce Yourself"
+            name="introduction">
+        </textarea>
+        
+        <br>
+        <br>
+
+        <!--HTML Entities-->
+        <h3>This is about writing &lt; and &gt;</h3>
+        <h3>This is how you use &nbsp;&nbsp;&nbsp; nbsp</h3>
+        <h3>unicode number 8251: &#8251;</h3>
+
+        <!--non-semantic tag-->
+        <div>
+            <h3>div</h3>
+            <div>
+                <textarea></textarea>
+            </div>
+            <div>
+                <textarea></textarea>
+            </div>
+        </div>
+
+        <div>
+            <h3>span</h3>
+            <span>
+                <textarea></textarea>
+            </span>
+            <span>
+                <textarea></textarea>
+            </span>
+        </div>
+    </body>
+</html>
