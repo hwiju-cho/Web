@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<style>
+    .box{
+        width: 100px;
+        height: 200px;
+        border: 2px dashed darkturquoise;
+        padding: 10px 20px;
+        margin:20px;
+        background-color: darkseagreen;
+        display: inline-block;
+    }
+
+    .box1{
+        width: 100px;
+        height: 200px;
+        border: 2px dashed rebeccapurple;
+        padding: 10px 20px;
+        margin:20px;
+        background-color: salmon;
+        display: inline;
+    }
+
+    .box2{
+        width: 100px;
+        height: 200px;
+        border: 2px dashed sandybrown;
+        padding: 10px 20px;
+        margin:20px;
+        background-color: lightskyblue;
+        display: block;
+    }
+</style>
+
+<body>
+    <h3>display: inline</h3>
+    <div>
+        share the same line with other elements<br>
+        It only takes up the width as much as the width of the content. <br>
+        properties such as width, height, margin-top, and padding cannot be applied.<br><br>
+    </div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+
+    <br><br>
+    <h3>display: block</h3>
+    <div>
+        Don't share the same line with other elements.<br>
+        Takes up the entire width of the web page.<br>
+        When placing multiple block-level elements, they are placed in the vertical direction.<br>
+        properties such as width, height, margin, and padding can be applied.<br>
+    </div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+    <div class="box2"></div>
+
+    <h3>display: inline-block</h3>
+    <div>
+        Use properties such as width, height, margin, and padding while placing elements on the same line
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
