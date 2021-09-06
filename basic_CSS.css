@@ -1,0 +1,47 @@
+
+/*
+    basic structure of CSS
+    : selector {property1:value1; property2:value2}
+*/
+
+/* *:selec all */
+* {
+    background-color: lemonchiffon;
+}
+
+/* .classname */
+.title {
+    font-size: 30px;
+    color: beige; 
+    font-weight: bold;
+    background-color:burlywood;
+    text-align: center;
+}
+
+/* #id */
+#article-list{
+    padding: 30px;
+    font-weight: 300;
+    color:sienna;
+}
+
+/* parent > child */
+#article-list > ol {
+    font-size:15px;
+}
+
+/*
+    Pseudo-class selector: select element in specific state
+    ex> hovered, disabled, first child,nth-child, ...
+*/
+
+button {
+    color:wheat;
+    background-color:turquoise;
+}
+
+button:hover {
+    color:teal;
+}
+
+
